@@ -287,7 +287,7 @@ const SubjectPage: React.FC<SubjectPageProps> = ({ title, subSections, isHubPage
     '/School/math-lab-file-6.png',
     '/School/math-lab-file-7.png'
   ];
-  const artIntegrationImages = Array.from({ length: 5 }, (_, i) => `/School/${subjectPrefix}-art-integration-${i + 1}.jpg`);
+  const artIntegrationImages = ['/School/What if we join 2 paths.png'];
   const achievementImages = Array.from({ length: 3 }, (_, i) => `/School/${subjectPrefix}-achievement-${i + 1}.jpg`);
 
 
